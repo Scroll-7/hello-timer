@@ -16,7 +16,7 @@ public class HelloServlet extends HttpServlet {
         out.println("<html>");
         out.println("<head><title>Hello DevOps</title></head>");
         out.println("<body>");
-        out.println("<h1>Hello from DevOps!</h1>");
+        out.println("<h1>Hello from DevOps - Pipeline automatique !</h1>");
         out.println("<p>Current time: " + new Date() + "</p>");
         out.println("<p>This app was built with Maven and deployed by Jenkins.</p>");
         out.println("</body>");
